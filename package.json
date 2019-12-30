@@ -1,0 +1,17 @@
+{
+  "name": "eslint_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset":"rm -rf index.js && cp index-origin.js index.js",
+    "eslint":"./node_modules/.bin/eslint index.js",
+    "fix":"./node_modules/.bin/eslint --fix index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
